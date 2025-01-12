@@ -24,7 +24,7 @@ pip install -r requirements.txt
      sender1 = "Z"
      sender2 = "A"
      time_diff = 16  # e.g. convert to China time
-    results = analyze_chat(chat_data, sender1 = sender1, sender2 = sender2, time_diff = time_diff)
+     results = analyze_chat(chat_data, sender1 = sender1, sender2 = sender2, time_diff = time_diff)
      ```
 
 3. **Run the Script**: Execute the script from the command line:
