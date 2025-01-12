@@ -199,7 +199,7 @@ def plot(results):
 # Main function
 if __name__ == '__main__':
     # Replace with your desired input file paths and output file path
-    input_files = ['data/message_1.html', 'data/message_2.html', 'data/message_3.html', 'data/message_4.html', 'data/message_5.html']  # Replace with your input file path
+    input_files = ['data/message_1.html']  # Replace with your input file path
     output_file = 'data/chat_history.csv'  
 
     html_to_csv(input_files, output_file)

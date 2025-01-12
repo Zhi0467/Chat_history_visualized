@@ -22,7 +22,8 @@ def html_to_csv(input_paths, output_path):
             # Extract sender
             sender = msg.find('div', class_='_3-95 _2pim _a6-h _a6-i')
             senders.append(sender.get_text(strip=True) if sender else '')
-            name = sender.get_text(strip=True) if sender else ''
+            full_name = sender.get_text(strip=True) if sender else ''
+            name = full_name.split(' ')[0]  # Get the first name
 
             # Extract message text
             text = msg.find('div', class_='_3-95 _a6-p')
